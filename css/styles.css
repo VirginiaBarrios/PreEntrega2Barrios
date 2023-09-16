@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.imagenes-carrusel {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes-carrusel a {
+    display: block;
+    text-align: center; 
+    margin-top: 5px;
+}
+
+
+#macetas {
+    width: 250px;
+    height: 170px;
+}
+
+#sustratos {
+    width: 250px;
+    height: auto;
+}
+
+#plantas {
+    width: 250px;
+    height: auto;
+}
+
+#menu-las-moras {
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.suscripcion {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.redes-sociales {
+    background-color: #F7F3E3;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 70px;
+}
+
+article {
+    margin: 50px;
+}
+
+article p {
+    margin-right: 200px;
+}
+
+h3 {
+    margin: 50px;
+}
+
+.formulario {
+    margin-left: 50px;
+}
+
+.lista-nav {
+    background-color: #9b82a7;
+    opacity: 0.9;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.buscador {
+    margin-left: 300px;
+}
+
+.padre-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #F7F3E3;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.card img {
+    width: 250px;
+    height: 270px;
+}
+
+.card p {
+    margin: 5px;
+}
+
+.encabezado {
+    margin-bottom: 10px;
+}
+
+.carrito {
+    
+}
+
+.p-sobre-nosotras{
+    margin: 10px 20px;
+}
+
+.sobre-nosotras {
+    display: flex;
+    flex-wrap: wrap;
+}
