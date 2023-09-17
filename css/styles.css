@@ -190,7 +190,7 @@ h3 {
     margin-bottom: 100px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .contenedor {
         flex-wrap: wrap;
     }
