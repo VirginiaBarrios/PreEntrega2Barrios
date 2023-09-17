@@ -23,11 +23,15 @@ img {
 .imagenes-carrusel {
     display: flex;
     justify-content: center;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .imagenes-carrusel a {
-    display: block;
-    text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
     margin-top: 5px;
 }
 
@@ -39,12 +43,12 @@ img {
 
 #sustratos {
     width: 250px;
-    height: auto;
+    height: 170px;
 }
 
 #plantas {
     width: 250px;
-    height: auto;
+    height: 170px;
 }
 
 #menu-las-moras {
@@ -60,8 +64,15 @@ img {
 
 .redes-sociales {
     background-color: #F7F3E3;
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 70px;
+    gap: 20px;
+}
+
+.redes-sociales a img {
+    width: 50px;
 }
 
 .copyright {
@@ -96,6 +107,10 @@ h3 {
     align-items: center;
 }
 
+.lista-nav a {
+    color: #202132;
+}
+
 
 .buscador {
     margin-left: 300px;
@@ -115,6 +130,12 @@ h3 {
     text-align: center;
     padding: 10px;
 
+}
+
+.card button {
+    font-weight: bold;
+    padding: 3px;
+    cursor: pointer;
 }
 
 .card img {
@@ -142,3 +163,45 @@ h3 {
     display: flex;
     flex-wrap: wrap;
 }
+
+.contenedor-padre{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.contenedor img {
+    width: 500px;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .contenedor-textos {
+    text-align: right;
+}
+
+.tips-y-cuidados{
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .contenedor {
+        flex-wrap: wrap;
+    }
+    .lista-nav {
+        flex-direction: column;
+    }
+    .buscador {
+        margin-left: 0;
+    }
+}
+
