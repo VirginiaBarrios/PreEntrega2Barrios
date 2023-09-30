@@ -1,0 +1,10 @@
+@mixin flex-jCenter-aCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}

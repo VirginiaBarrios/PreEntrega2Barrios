@@ -1,0 +1,27 @@
+.contenedor-padre{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contenedor {
+    @include flex-jCenter-aCenter;
+    gap: 20px;
+    flex-wrap: nowrap;
+
+    img {
+        width: 500px;
+    }
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.reverse .contenedor-textos {
+    text-align: right;
+}
+
+.tips-y-cuidados{
+    margin-bottom: 100px;
+}

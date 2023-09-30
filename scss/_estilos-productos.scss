@@ -1,0 +1,39 @@
+.padre-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards {
+    background-color: $color-1;
+    width: 250 !important; 
+    height: 420 !important;
+    margin: 20px !important;
+    margin-bottom: 60px !important;
+    text-align: center !important;
+    padding: 10px !important;
+
+}
+
+.btn {
+    background-color: $color-2;
+    border-color: $color-2;
+}
+
+.card {
+    button {
+        font-weight: bold;
+        padding: 3px;
+        cursor: pointer;
+    }
+    img {
+        @include sizes(250, 270);
+    }
+    p {
+        margin: 5px;
+    }
+}
+
+.encabezado {
+    margin-bottom: 10px;
+}

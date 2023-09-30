@@ -1,0 +1,50 @@
+.imagenes-carrusel {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    a {
+        @include flex-jCenter-aCenter;
+        margin-top: 5px;
+    }
+}
+
+
+#macetas {
+    @include sizes(250, 170);
+}
+
+#sustratos {
+    @include sizes(250, 170);
+}
+
+#plantas {
+    @include sizes(250, 170);
+}
+
+#carouselExampleAutoplaying {
+    width: 50%;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.carousel-caption {
+    color: $color-1;
+    font-weight: bold;
+    border: 1px solid $color-1;
+    border-radius: 10px;
+}
+
+.suscripcion {
+    text-align: center;
+    margin-top: 70px;
+
+    p{
+        margin-bottom: 10px;
+    }
+    
+}
