@@ -219,12 +219,16 @@ h3 {
 
 .cards {
   background-color: #F7F3E3;
-  width: 250 !important;
-  height: 420 !important;
+  width: 250px !important;
+  height: 420px !important;
   margin: 20px !important;
   margin-bottom: 60px !important;
   text-align: center !important;
   padding: 10px !important;
+  transition: all 0.3s;
+}
+.cards:hover {
+  transform: scale(1.1);
 }
 
 .btn {
@@ -238,8 +242,8 @@ h3 {
   cursor: pointer;
 }
 .card img {
-  width: 250;
-  height: 270;
+  width: 250px;
+  height: 270px;
 }
 .card p {
   margin: 5px;

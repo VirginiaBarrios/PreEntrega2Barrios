@@ -6,13 +6,16 @@
 
 .cards {
     background-color: $color-1;
-    width: 250 !important; 
-    height: 420 !important;
+    width: 250px !important; 
+    height: 420px !important;
     margin: 20px !important;
     margin-bottom: 60px !important;
     text-align: center !important;
     padding: 10px !important;
-
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.1);
+    }
 }
 
 .btn {
@@ -27,7 +30,7 @@
         cursor: pointer;
     }
     img {
-        @include sizes(250, 270);
+        @include sizes (250px, 270px);
     }
     p {
         margin: 5px;
