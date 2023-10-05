@@ -13,15 +13,15 @@
 
 
 #macetas {
-    @include sizes(250, 170);
+    @include sizes(250px, 170px);
 }
 
 #sustratos {
-    @include sizes(250, 170);
+    @include sizes(250px, 170px);
 }
 
 #plantas {
-    @include sizes(250, 170);
+    @include sizes(250px, 170px);
 }
 
 #carouselExampleAutoplaying {

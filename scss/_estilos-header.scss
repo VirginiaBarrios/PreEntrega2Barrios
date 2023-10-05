@@ -36,8 +36,10 @@
     margin: 0 10px
 }
 
-.enlaces:hover {
-    color: $color-4;
+.enlaces {
+    &:hover {
+        color: $color-4;
+    }
 }
 
 .buscador {
