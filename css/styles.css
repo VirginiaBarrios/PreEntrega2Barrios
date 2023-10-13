@@ -117,9 +117,13 @@ img {
 }
 .col h4 {
   color: #202132;
+  height: 45px;
 }
 .col h4:hover {
   color: #7ed835;
+}
+.col p {
+  height: 60px;
 }
 
 article {
@@ -242,6 +246,7 @@ h3 {
   align-items: center;
   gap: 20px;
   flex-wrap: nowrap;
+  padding: 10px;
 }
 .contenedor img {
   width: 500px;
@@ -357,6 +362,9 @@ h3 {
     flex-wrap: wrap;
     flex-direction: column;
   }
+  .col p {
+    height: 100px;
+  }
 }
 @media (max-width: 991px) {
   .carousel-item img {
@@ -387,6 +395,9 @@ h3 {
   .carousel-item img {
     height: 300px;
   }
+  .col p {
+    height: 170px;
+  }
 }
 @media (max-width: 660px) {
   .carousel-item img {
@@ -401,9 +412,15 @@ h3 {
     height: 200px;
   }
 }
-@media (max-width: 300px) {
+@media (max-width: 325px) {
   .carousel-item img {
     height: 150px;
+  }
+  .col h4 {
+    height: 60px;
+  }
+  .col p {
+    height: 180px;
   }
 }
 

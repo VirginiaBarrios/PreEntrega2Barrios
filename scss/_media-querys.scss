@@ -18,6 +18,9 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+        p {
+            height: 100px;
+        }
     }
 }
 
@@ -52,6 +55,11 @@
     .carousel-item img {
         height: 300px;
     }
+    .col {
+        p {
+            height: 170px;
+        }
+    }
 }
 
 @media (max-width: 660px) {
@@ -69,8 +77,18 @@
     }
 }
 
-@media (max-width: 300px) {
+
+
+@media (max-width: 325px) {
     .carousel-item img {
         height: 150px;
+    }
+    .col {
+        h4 {
+            height: 60px;
+        }
+        p {
+            height: 180px;
+        }
     }
 }
